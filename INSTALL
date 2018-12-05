@@ -1,0 +1,9 @@
+Building DigitalCFA
+
+See doc/readme-qt.rst for instructions on building DigitalCFA-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of DigitalCFA.
+
+See doc/build-*.txt for instructions on building digitalcfad,
+the intended-for-services, no-graphical-interface, reference
+implementation of DigitalCFA.

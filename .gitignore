@@ -1,0 +1,34 @@
+src/*.exe
+src/digitalcfa
+src/digitalcfad
+src/test_digitalcfa
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.digitalcfa
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+digitalcfa-qt
+DigitalCFA-Qt.app
+
+# Unit-tests
+Makefile.test
+digitalcfa-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
